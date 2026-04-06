@@ -23,7 +23,7 @@ Files without a matching rule are skipped and left in place.
 Open `automated_file_organizer.py` and find this line at the top:
 
 ```python
-target_directory = os.path.join(os.path.expanduser("~"), "Desktop", "Test")
+target_directory = "./TestFolder"
 ```
 
 Replace `"Test"` with your actual folder name or path. Examples:
